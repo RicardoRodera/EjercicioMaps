@@ -13,10 +13,6 @@ public class Banco {
     public Cuenta getCuenta(String nombre) {
         return this.cuentasBancarias.get(nombre);
     }
-    
-    public void saludar() {
-    	System.out.println("Hola");
-    }
 
     public void listarClientes() {
         StringBuilder sb = new StringBuilder();
